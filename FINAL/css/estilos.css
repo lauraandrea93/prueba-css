@@ -1,0 +1,42 @@
+.contenido{
+  background-color: #02010a;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.encabezado{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+}
+.imagen1{
+  background-color: #82c3a6;
+}
+.imagenes{
+  background-color:  #d5c75f;
+}
+.final{
+  background-color: #C6d5c5;
+  width: 100%;
+}
+body{
+  background-color: #02010a;
+}
+h1{
+  text-align: left;
+  text-shadow: 2px 2px 2px #02010a;
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.lista > li{
+  display: inline-block;
+  padding: 10px;
+  font-weight: lighter;
+  text-align: right;
+  font-size: 2em;
+}

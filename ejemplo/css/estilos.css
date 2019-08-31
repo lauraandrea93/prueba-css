@@ -1,0 +1,142 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #08f3da;
+}
+#contenedor{
+  background: #0816f3;
+  height: 100%;
+  margin: 0 auto;
+  width: 90%;
+  animation: animacion 2s;
+  animation-iteration-count: 1;
+
+}
+header{
+  background: #8c08f3;
+  max-width: 100%;
+  height:100%;
+  display: flex;
+}
+#cabezera{
+  background-color:#9B0DA2;
+  max-width:100%;
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+}
+#menu{
+  background-color:#33ECFF;
+  max-width:100%;
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+}
+#fila1{
+  width: 100%;
+}
+#fila1 #retrato1{
+  background-color: #d40ce1;
+  width: 32%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+#fila1 #retrato1 img{
+  width: 80%;
+  padding: 10%
+}
+#fila1 #retrato2{
+  background-color: #b145fc;
+  width: 32%;
+  height:100%;
+  display: inline-block;
+  vertical-align: top;
+}
+#fila1 #retrato2 img{
+  background-color: #b145fc;
+  width: 80%;
+  padding: 10%;
+
+}
+#fila1 #retrato3{
+  background-color: #eda2f5;
+  width: 32%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+#fila1 #retrato3 img{
+  background-color: #eda2f5;
+  width: 80%;
+  padding: 10%;
+}
+img{
+  box-shadow: 2px 2px 2px 2px #02010a;
+}
+h1{
+  font-style: italic;
+}
+@-webkit-keyframes animacion{
+  0%{
+    margin-top: 150%;
+
+  }
+  60%{
+    margin-top: -15%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+@media all and (min-width: 300px) and (max-width: 800px) {
+  body{
+    background: #0fa1cc;
+  }
+  #fila1 #retrato1{
+    width: 100%;
+    height: 100%;
+    display:block;
+  }
+  #fila1 #retrato2{
+    background-color: #b145fc;
+    width: 100%;
+    height: 100%;
+    display:block;
+  }
+  #fila1 #retrato3{
+    background-color: #eda2f5;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  H1{
+    text-align: center;
+  }
+
+  @media all and (min-width: 800px) and (max-width: 1400px){
+      body{
+        background: #5cee1c;
+      }
+      #fila1 #retrato1{
+        width: 100%;
+        height: 100%;
+        order:3;
+      }
+      #fila1 #retrato2{
+        background-color: #b145fc;
+        width: 100%;
+        height: 100%;
+        order: 2;
+      }
+      #fila1 #retrato3{
+        background-color: #eda2f5;
+        width: 100%;
+        height: 100%;
+        order: 1;
+      }
+
+  }
